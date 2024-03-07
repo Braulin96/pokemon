@@ -13,7 +13,11 @@ export default function Home() {
         maxHeight: "1000px",
       }}
     >
-      <div className={`flex flex-col max-w-7xl text-white my-auto text-center gap-y-8 transition-all duration-[2s] ${showLanding ? '-translate-y-[1200px]' : 'translate-y-0'} `}>
+      <div
+        className={`flex flex-col max-w-7xl text-white my-auto text-center gap-y-8 transition-all duration-[2s] ${
+          showLanding ? "-translate-y-[1200px]" : "translate-y-0"
+        } `}
+      >
         <p className="md:text-3xl text-2xl font-extralight">
           Welcome to our PokeApp <br /> Let's find your favorite pokemon
         </p>
