@@ -40,7 +40,7 @@ body {
 
 a.slide {
   color: var(--color);
-  transition: 0.25s;
+  transition: 0.5s;
 }
 
 a.slide:hover,
@@ -53,8 +53,8 @@ a.slide {
   background: none;
   border: 2px solid;
   font: inherit;
-  line-height: 1;
-  margin: 0.5em;
+  /* line-height: 1; */
+
 }
 
 /* fade button used in HeroSection and in projectList*/
